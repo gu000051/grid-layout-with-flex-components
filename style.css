@@ -35,19 +35,18 @@ body {
 
   .emoji {
     border: 1px solid #18171C;
+
   }
 
   .emoji {
     display: flex;
     flex-direction: column;
-
+    justify-content: space-between;
   }
 
   .icon {
     order: -1;
     align-self: center;
   }
-   a{
-    align-items: stretch;
 
-   }
+  
