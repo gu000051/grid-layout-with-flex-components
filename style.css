@@ -25,28 +25,27 @@ body {
   .icon {
     font-size: 4rem;
   }
+/* my style */
 
   .emojis {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
-    gap:1rem;
+    gap:14px;
+    max-width: 890px;
   }
 
-  .emoji {
-    border: 1px solid #18171C;
-
-  }
 
   .emoji {
     display: flex;
+    border: 1px solid #18171C;
     flex-direction: column;
     justify-content: space-between;
+   
   }
 
   .icon {
     order: -1;
     align-self: center;
   }
-
-  
+ 
